@@ -64,7 +64,7 @@ h3.header {
 @-moz-document url-prefix() {
   .language-select select {
     -moz-appearance: none;
-    text-indent: -2px;
+    text-indent: 2px;
     margin-right: -8px;
   }
 }
@@ -240,7 +240,6 @@ h3.header {
   padding: 1rem 1.5rem;
   border: 1px solid #ccc;
   background: #fbfbfb;
-  overflow: auto;
   font-family: monospace;
   min-height: 280px;
   width: 100%;
