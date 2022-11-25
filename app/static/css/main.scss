@@ -1,4 +1,6 @@
 /* Custom styles for LibreTranslate page */
+$browser-default-width: 82px;  // browser-default
+
 html,
 body,
 select {
@@ -27,7 +29,7 @@ h3.header {
 }
 
 .mb-1 {
-  margin-bottom: 1rem;
+    margin-bottom: 1rem;
 }
 
 .position-relative {
@@ -47,8 +49,7 @@ h3.header {
   font-weight: 600;
   text-decoration: underline;
   -webkit-appearance: none;
-  -moz-appearance: none;
-       appearance: none;
+  appearance: none;
   background-color: transparent;
   padding: 0;
   text-indent: 0.01px;
@@ -68,6 +69,7 @@ h3.header {
     margin-right: -8px;
   }
 }
+
 .language-select:after {
   content: "";
   width: 0.5em;
@@ -115,7 +117,6 @@ h3.header {
   color: #666;
   pointer-events: none;
 }
-
 .actions {
   position: absolute;
   right: 1.25rem;
@@ -128,7 +129,7 @@ h3.header {
   color: #1565C0;
   display: flex;
   align-items: center;
-  margin: 0.5rem;
+  margin: .5rem;
 }
 
 .btn-switch-type:focus {
@@ -136,13 +137,13 @@ h3.header {
 }
 
 .btn-switch-type:hover {
-  background-color: #eee !important;
-  color: #1565C0;
+    background-color: #eee !important;
+    color: #1565C0;
 }
 
 .btn-switch-type.active {
-  background-color: #1565C0 !important;
-  color: #fff;
+    background-color: #1565C0 !important;
+    color: #fff;
 }
 
 .file-dropzone {
@@ -158,6 +159,7 @@ h3.header {
   position: absolute;
   top: 50%;
   left: 50%;
+
   transform: translate(-50%, -50%);
 }
 
@@ -174,7 +176,6 @@ h3.header {
 .btn-blue {
   color: #1565C0;
 }
-
 .btn-action:disabled {
   color: #666;
 }
@@ -191,7 +192,7 @@ h3.header {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: -0.5rem;
+  margin: -.5rem;
 }
 
 .btn-text {
@@ -199,7 +200,7 @@ h3.header {
   margin-left: 1em;
 }
 
-.browser-default {
+.browser-default{
   width: browser-default-width;
 }
 
@@ -278,6 +279,7 @@ h3.header {
     display: none;
   }
 }
+
 #download-btn-wrapper {
   display: flex;
   justify-content: center;
@@ -294,6 +296,7 @@ h3.header {
     display: inline;
   }
 }
+
 @media (max-width: 760px) {
   .language-select select {
     text-align: center;
@@ -306,4 +309,4 @@ h3.header {
   .language-select span {
     display: none;
   }
-}/*# sourceMappingURL=main.css.map */
+}
